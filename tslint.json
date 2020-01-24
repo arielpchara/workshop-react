@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-plugin-prettier",  "tslint-config-security"],
+  "jsRules": {},
+  "rules": {
+    "cyclomatic-complexity": [true, 5],
+    "max-line-length": [true, 140],
+    "max-file-line-count": [true, 150],
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
+  },
+  "rulesDirectory": []
+}

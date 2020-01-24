@@ -1,8 +1,8 @@
-import React, { FC } from 'react';
-import { Register } from './containers';
+import React, { FC } from 'react'
+import { Register } from './containers'
 
 const App: FC = () => {
-  return <Register />;
+  return <Register />
 }
 
-export default App;
+export default App

@@ -1,6 +1,6 @@
-import { RegisterContext } from "./interfaces";
+import { RegisterContext } from './interfaces'
 
-export const defaultContext:RegisterContext = {
+export const defaultContext: RegisterContext = {
   list: [],
   removeRecord: (id: number) => null
 }

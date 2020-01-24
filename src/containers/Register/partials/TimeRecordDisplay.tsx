@@ -11,6 +11,8 @@ export const TimeRecordDisplay: FC<TimeRecordDisplayProps> = ({
   onClick
 }) => {
   return (
-    <li onClick={onClick}>{id}: {time}</li>
+    <li onClick={onClick}>
+      {id}: {time}
+    </li>
   )
 }

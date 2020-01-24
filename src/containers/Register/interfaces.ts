@@ -4,6 +4,6 @@ export interface TimeRecord {
 }
 
 export interface RegisterContext {
-  list: TimeRecord[],
+  list: TimeRecord[]
   removeRecord: (id: number) => void
 }
